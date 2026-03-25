@@ -1,0 +1,7 @@
+# Front-end Dependencies (Loaded via CDN)
+tensorflow-js==latest
+teachablemachine-image==latest
+
+# Local Development Tools
+# To run this project, use VS Code Live Server or:
+# python -m http.server 8000

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Vision | Face vs Hand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>AI Vision<span>.io</span></h1>
+            <p>Real-time Image Classification</p>
+        </header>
+
+        <div class="main-card">
+            <div id="webcam-wrapper">
+                <div id="webcam-container"></div>
+                <div class="scan-line"></div> </div>
+
+            <div class="controls">
+                <button class="btn-start" type="button" onclick="init()">
+                    <span class="icon">🚀</span> Start Scanner
+                </button>
+            </div>
+
+            <div id="label-container">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
